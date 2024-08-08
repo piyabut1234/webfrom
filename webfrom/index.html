@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<body>
+    
+    <form action="">
+
+        ชื่อ :<input type="text"  name="name"  size="30" maxlength="150">
+        นามสกุล :<input type="text" name="lastname"  size="30" maxlength="150"><br>
+        รหัสผ่าน :<input type="password" name="password"  size="15" maxlength="8"><br>
+        
+        อายุ : &nbsp; &nbsp;
+        <input type="radio" name="age" value="0">15-20 ปี &nbsp; &nbsp;
+        <input type="radio" name="age" value="1">20-25 ปี &nbsp; &nbsp;
+        <input type="radio" name="age" value="2">25 ปีขึ้นไป &nbsp; &nbsp;<br>
+        ที่อยู๋ :<textarea name="address" cols="90" rows="5">กรอกข้อมูลที่อยู๋</textarea><br>
+        วิชาเรียน : &nbsp; &nbsp;
+        <input type="checkbox" name="subject" value="program">Programing &nbsp;
+        <input type="checkbox" name="subject" value="network">Networking &nbsp;
+        <input type="checkbox" name="subject" value="db">Database &nbsp;
+        เลือกวิชาที่ต้องการสมัคร
+
+        <select name="dept" size="1">
+
+            <option value="1">เทคโนโลยีสารสนเทศ</option><br>
+            <option value="2">คอมพิวเตอร์ธุระกิจ</option><br>
+            <option value="3">อิเล็กทรอนิกส์</option><br>
+            <option value="5">ไฟฟ้ากำลัง</option><br>
+            <option value="6">เครื่องกล</option><br>
+            <option value="7">เทคนิคคอมพิวเตอร์</option><br>
+
+        </select><br>
+
+        <input type="submit" name="data" value="ส่งข้อมูล">
+        <input type="reset" name="data" value="ล้างข้อมูล">
+
+    </form>
+
+</body>
+</html>
